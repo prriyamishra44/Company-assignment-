@@ -1,0 +1,61 @@
+.container {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk0MweWXqMo_-Cs6YEnjODrWA1_36z6iLLCg&usqp=CAU");
+  /* this is to hide any part of the pseudo-element that may overflow */
+}
+
+.list {
+  display: block;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.nameList {
+  list-style: none;
+  padding: 0;
+  overflow-y: scroll;
+  max-height: 600px;
+  
+}
+.list h2 {
+  margin: 90px;
+  margin-bottom: 40px;
+}
+
+.nameList li span {
+  margin-bottom: 30px;
+  margin: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+ 
+}
+.nameList li img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.nameList li::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 10px;
+}

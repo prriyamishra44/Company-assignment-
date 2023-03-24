@@ -1,0 +1,14 @@
+.paragrapg{
+    display: flex;
+    height: 864px;
+    width: 1536px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100px;
+    text-transform: capitalize;
+    color: rgb(245, 236, 236);
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+     font-stretch: expanded;
+    
+}
